@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button   {
+    font-family: 'Tilt Warp', cursive;
+    font-weight: normal;
+}
+body, input, textarea {
+    font-family: 'Anuphan', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #0707077a;
+    color: #080808;
+}
+
+header .container,
+section .container,
+section .cost {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 32px;
+}
+
+header nav li a {
+    color: #080808;
+    text-decoration: none;
+}
+
+.shield {
+    margin-top: 16px;
+    margin-right: 32px ; 
+    padding: 68px ;
+    background-color: #d2cfcf; 
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.brands-list img {
+   
+    height: 38px;
+}
+
+.brands-list li {
+    padding: 30px;
+    display: inline;
+    margin-right: 8px;  
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+     
+}
+
+ 
+section p {
+    color: #080808;
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+section .cast img {
+    padding-top: 40px;
+    width:  30%;
+}
+
+section .cast li  {
+    display: inline;
+    margin-right: 30px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #495d92;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    background-color: #0707077a;
+    color: #080808;
+    padding: 16px 0;
+}
